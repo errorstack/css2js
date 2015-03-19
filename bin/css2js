@@ -1,0 +1,17 @@
+#!/usr/bin/env /usr/local/bin/node
+
+var output = require('../lib/output');
+
+var args = process.argv.slice(2, process.argv.length);
+if(args.length < 2){
+  throw new Error('src and dest arguments invalid')
+}
+
+var dest = args.splice(args.length - 1, 1)[0];
+var src = args;
+
+output({
+  path: __dirname,
+  src: src,
+  dest: dest
+});

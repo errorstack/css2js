@@ -1,0 +1,25 @@
+{
+  "name": "es-css2js",
+  "version": "0.0.3",
+  "description": "CSS packer to help you create standalone JavaScript UI Modules",
+  "main": "lib/output.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "shelljs": "~0.3.0"
+  },
+  "bin":{
+    "css2js":"./bin/css2js"
+  },
+  "keywords": [
+    "css",
+    "packer",
+    "compiler",
+    "ui",
+    "components",
+    "standalone"
+  ],
+  "author": "Jevon Cao",
+  "license": "MIT"
+}
