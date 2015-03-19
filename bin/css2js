@@ -11,7 +11,7 @@ var dest = args.splice(args.length - 1, 1)[0];
 var src = args;
 
 output({
-  path: __dirname,
+  path: process.env.PWD,
   src: src,
   dest: dest
 });

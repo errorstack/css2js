@@ -1,6 +1,6 @@
 {
   "name": "es-css2js",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "CSS packer to help you create standalone JavaScript UI Modules",
   "main": "lib/output.js",
   "scripts": {
