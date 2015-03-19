@@ -1,6 +1,6 @@
 # CSS2JS - Build Standalone UI Modules
 
-CSS2JS cloud help you build standalone UI modules without reference addtional CSS file. You can compile your CSS to a normal JavaScript file, a RequireJS module, AngularJS module or any other custom JavaScript module.
+CSS2JS could help you build standalone UI modules without referencing addtional CSS file. You can compile your CSS to a normal JavaScript file, a RequireJS module, an AngularJS module or any other custom JavaScript module.
 
 ## Install
 npm install es-css2js -g
