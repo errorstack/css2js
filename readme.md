@@ -3,11 +3,15 @@
 CSS2JS could help you build standalone UI modules without referencing addtional CSS file. You can compile your CSS to a normal JavaScript file, a RequireJS module, an AngularJS module or any other custom JavaScript module.
 
 ## Install
+````shell
 npm install es-css2js -g
+````
 
 ## Example usage
 ### From command-line:
+````shell
 css2js srouce1.css source2.css source3.css ... sourceN.css dest.js
+````
 
 The file path will be related to your current executing path.
 

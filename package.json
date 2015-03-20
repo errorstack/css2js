@@ -1,6 +1,6 @@
 {
   "name": "es-css2js",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "CSS packer to help you create standalone JavaScript UI Modules",
   "main": "lib/output.js",
   "scripts": {
@@ -20,6 +20,10 @@
     "components",
     "standalone"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:errorstack/css2js.git"
+  },
   "author": "Jevon Cao",
   "license": "MIT"
 }
